@@ -9,4 +9,6 @@ public interface MyService {
     Optional<Employee> getEmpByID(Integer id);
 
     Optional<Employee> getEmpByName(String name);
+
+    void deleteEmployee(Integer id);
 }

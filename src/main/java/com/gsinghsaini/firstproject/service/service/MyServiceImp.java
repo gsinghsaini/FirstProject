@@ -30,4 +30,9 @@ public class MyServiceImp implements MyService {
         return myRepository.findByName(name);
     }
 
+    @Override
+    public void deleteEmployee(Integer id) {
+         myRepository.deleteById(id);
+    }
+
 }
